@@ -1,0 +1,16 @@
+{
+  "name": "simple-starter",
+  "version": "1.0.0",
+  "description": "Tailwindcss designer for simple project ~ ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Robert M Hendricks",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
